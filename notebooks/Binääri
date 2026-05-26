@@ -1,0 +1,13 @@
+# Muuntaa luvun binääriksi
+luku = int(input("Anna kokonaisluku: "))
+
+binaari = bin(luku)[2:]
+
+print(f"Luku {luku} binäärimuodossa on: {binaari}")
+
+# Muuntaa binäärin luvuksi
+binaari = input("Anna binääriluku: ")
+
+luku = int(binaari, 2)
+
+print(f"Binääriluku {binaari} kokonaislukuna on: {luku}")
